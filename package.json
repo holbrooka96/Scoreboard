@@ -1,0 +1,19 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "Scoreboard project from Scrimba's Learn JavaScript course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holbrooka96/Scoreboard.git"
+  },
+  "author": "Austin Holbrook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holbrooka96/Scoreboard/issues"
+  },
+  "homepage": "https://github.com/holbrooka96/Scoreboard#readme"
+}
