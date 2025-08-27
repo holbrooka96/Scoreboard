@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team-card">
+                <h3 class="team-title">HOME</h3>
+                <h4 id="teamA-score" class="score-txt">0</h4>
+                <div class="btn-list">
+                    <button onclick="addtoScore('a')">+1</button>
+                    <button onclick="addtoScore('a')">+2</button>
+                    <button onclick="addtoScore('a')">+3</button>
+                </div>
+            </div>
+            <div class="team-card">
+                <h3 class="team-title">GUEST</h3>
+                <h4 id="teamB-score" class="score-txt">0</h4>
+                <div class="btn-list">
+                    <button onclick="addtoScore('b')">+1</button>
+                    <button onclick="addtoScore('b')">+2</button>
+                    <button onclick="addtoScore('b')">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
