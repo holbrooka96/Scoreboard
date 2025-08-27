@@ -1,6 +1,6 @@
 let teamScore = 0
 let count = 0
-function addtoScore(teamScoreText)
+window.addtoScore = function(teamScoreText)
 {
     if (teamScoreText === 'a') {
         teamScore = document.getElementById("teamA-score")
